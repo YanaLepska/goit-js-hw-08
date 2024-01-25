@@ -1,0 +1,29 @@
+body {
+  background-color: #fff;
+}
+
+.gallery {
+  list-style-type: none;
+  margin: 0;
+  padding: 24px 156px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gallery-link {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-link:hover {
+  transform: scale(1.045);
+}
